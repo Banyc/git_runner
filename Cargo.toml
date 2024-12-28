@@ -1,0 +1,10 @@
+[package]
+name = "git_runner"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bincode = "1"
+mux = { git = "https://github.com/Banyc/mux.git", tag = "v0.0.4" }
+serde = { version = "1", features = ["derive"] }
+tokio = { version = "1", features = ["full"] }
